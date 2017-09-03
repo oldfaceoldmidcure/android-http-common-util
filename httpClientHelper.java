@@ -43,6 +43,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author ofo
+ */
 public class HttpClientHelper {
     private static final Stirng TAG = "HttpClientHelper";
 
