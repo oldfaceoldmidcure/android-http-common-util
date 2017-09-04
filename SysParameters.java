@@ -124,6 +124,6 @@ public class SysParameters {
 
     @Override
     public String toString() {
-        return "{ver="+ver+",id="+id+",token="+token+"}"+mParams.toString();
+        return "{ver="+ver+", id="+id+", token="+token+"}"+mParams.toString();
     }
 }

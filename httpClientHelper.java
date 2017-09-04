@@ -89,6 +89,7 @@ public class HttpClientHelper {
 
     /**
      * 执行请求
+     * Todos: 需要添加支持嵌套数据的解析(需要更新SysParameters数据类)
      */
     public static Stirng executeRequest(Strign url, String method, SysParameters params) throws Exception {
         String result = null;
@@ -210,5 +211,4 @@ public class HttpClientHelper {
             }
         }
     }
-
 }
